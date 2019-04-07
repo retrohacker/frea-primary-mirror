@@ -1,7 +1,7 @@
 {
   "scripts": {
     "prestart": "mkdir -p /mnt/volume_sfo2_01/registry /var/log/registry-static",
-    "start": "nohup registry-static --log /var/log/registry-static/output.log -d registry.freajs.com -o /mnt/volume_sfo2_01/registry &"
+    "start": "nohup registry-static --log /var/log/registry-static/output.log -d registry.freajs.org -o /mnt/volume_sfo2_01/registry &"
   },
   "dependencies": {
     "registry-static": "2.4.0"
